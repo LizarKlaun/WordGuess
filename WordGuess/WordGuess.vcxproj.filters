@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{6fb1a3c0-2d92-4681-a72d-521fffb16f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font\Fonts">
+      <UniqueIdentifier>{bc3d89db-de72-47bd-873c-00f2d6b8fb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBaseWords">
+      <UniqueIdentifier>{fac0325b-ecce-4ec6-8e62-7017145504b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Word">
+      <UniqueIdentifier>{1b84aede-56ad-4fb0-913d-f0a1e7206341}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WordGuess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FontAbstract.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Doom.h">
+      <Filter>Font\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Lean.h">
+      <Filter>Font\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseWords.h">
+      <Filter>DataBaseWords</Filter>
+    </ClInclude>
+    <ClInclude Include="Word.h">
+      <Filter>Word</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

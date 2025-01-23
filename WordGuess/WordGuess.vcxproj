@@ -129,6 +129,14 @@
   <ItemGroup>
     <ClCompile Include="WordGuess.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataBaseWords.h" />
+    <ClInclude Include="Doom.h" />
+    <ClInclude Include="FontAbstract.h" />
+    <ClInclude Include="Lean.h" />
+    <ClInclude Include="Libraries.h" />
+    <ClInclude Include="Word.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
